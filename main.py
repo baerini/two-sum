@@ -1,8 +1,8 @@
-def twoSum(lst, target):
-    n = len(lst)
+def twoSum(nums, target):
+    n = len(nums)
 
     for i in range(n-1):
         for j in range(i+1, n):
-            if lst[i] + lst[j] == target:
+            if nums[i] + nums[j] == target:
                 return [i, j]
 
